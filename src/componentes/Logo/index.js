@@ -4,7 +4,11 @@ import './estilo.css';
 function Logo() {
     return (
         <div className='logo'>
-            <img src={logo} alt="Logo" />
+            <img 
+                src={logo} 
+                alt="Logo" 
+                className='logo-img'
+            />
             <p><strong>Alura</strong> Books</p>
         </div>
     )
